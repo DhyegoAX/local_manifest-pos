@@ -18,7 +18,7 @@
   <project path="vendor/realme/ice" name="proprietary_vendor_realme_ice" remote="DhyegoAX"/>
 
    <!-- Common -->
-  <project path="device/oneplus/sm8350-common" name="android_device_oneplus_sm8350-common" revision="14.0-lunaa" remote="DhyegoAX"/>
+  <project path="device/oneplus/sm8350-common" name="android_device_oneplus_sm8350-common" revision="14.0" remote="DhyegoAX"/>
   <project path="vendor/oneplus/sm8350-common" name="proprietary_vendor_oneplus_sm8350-common" revision="14.0" remote="DhyegoAX"/>
 
    <!-- Kernel -->
