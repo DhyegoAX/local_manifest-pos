@@ -9,7 +9,7 @@
            fetch="https://github.com/PixelOS-AOSP"
 	  revision="fourteen" />
 
-                                                        <remote  name="Los"
+<remote  name="Los"
            fetch="https://github.com/LineageOS"
            revision="lineage-21.0" />	  
 
