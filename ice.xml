@@ -7,7 +7,11 @@
   
   <remote  name="pixelOS"
            fetch="https://github.com/PixelOS-AOSP"
-           revision="fourteen" />
+	  revision="fourteen" />
+
+                                                        <remote  name="Los"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-21.0" />	  
 
 
 
@@ -26,5 +30,8 @@
 
   <!-- Hardware -->
   <project path="hardware/oplus" name="android_hardware_oplus" revision="14.0-lunaa" remote="DhyegoAX"/>
+
+<!-- PixelOs dependencies -->
+<project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="Los" />
 
 </manifest>
