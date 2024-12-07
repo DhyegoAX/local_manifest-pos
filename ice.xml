@@ -9,9 +9,8 @@
            fetch="https://github.com/PixelOS-AOSP"
 	  revision="fourteen" />
 
-<remote  name="Los"
-           fetch="https://github.com/LineageOS"
-           revision="lineage-21.0" />	  
+	    <!-- Removals -->
+	  <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni" />
 
 
 
@@ -31,7 +30,5 @@
   <!-- Hardware -->
   <project path="hardware/oplus" name="android_hardware_oplus" revision="14.0-lunaa" remote="DhyegoAX"/>
 
-<!-- PixelOs dependencies -->
-<project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="Los" />
 
 </manifest>
