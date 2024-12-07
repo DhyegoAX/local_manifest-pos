@@ -4,15 +4,8 @@
   <remote  name="DhyegoAX"
            fetch="https://github.com/DhyegoAX"
            revision="14.0" />
-  
-  <remote  name="pixelOS"
-           fetch="https://github.com/PixelOS-AOSP"
-	  revision="fourteen" />
 
-	    <!-- Removals -->
-	  <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni" />
-
-
+	
 
   <!-- Device -->
   <project path="device/realme/ice" name="android_device_realme_ice" remote="DhyegoAX"/>
