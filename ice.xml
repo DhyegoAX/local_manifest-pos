@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="DhyegoAX"
-           fetch="https://github.com/DhyegoAX"
-           revision="14.0" />
+           fetch="https://github.com/DhyegoAX"/>
 
 	
 
